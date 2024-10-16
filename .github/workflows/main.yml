@@ -25,4 +25,5 @@ jobs:
     - name: Run tests
       env:
         API_TOKEN: ${{ secrets.API_TOKEN }}
+        ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
       run: python test_finance_bot.py
