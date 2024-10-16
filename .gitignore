@@ -1,0 +1,6 @@
+.coverage
+.dockerignore
+.env
+/.help
+/__pycache__
+/app_data
